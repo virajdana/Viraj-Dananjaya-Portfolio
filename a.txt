@@ -1,0 +1,4 @@
+npm run dev
+
+Pedro Machado
+predro tech
