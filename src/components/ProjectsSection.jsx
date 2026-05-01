@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Expense Tracker",
     description: "Expense Tracker web app using React and Tailwind CSS.",
-    image: "/projects/project1.png",
+    image: "/projects/project1.jpeg",
     tags: ["React", "TailwindCSS", "MongoDB" , "Node.js"],
     // demoUrl: "#",
     githubUrl: "https://github.com/virajdana/expensetracker-react.git",
@@ -15,7 +15,7 @@ const projects = [
     title: "Viraj Dananjaya Portfolio",
     description:
       "Portfolio website built using React and Tailwind CSS.",
-    image: "/projects/project2.png",
+    image: "/projects/project2.jpeg",
     tags: ["React", "TailwindCSS"],
     // demoUrl: "#",
     githubUrl: "https://github.com/virajdana/Viraj-Dananjaya-Portfolio.git",
