@@ -3,33 +3,33 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Expense Tracker",
+    description: "Expense Tracker web app using React and Tailwind CSS.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "TailwindCSS", "MongoDB" , "Node.js"],
+    // demoUrl: "#",
+    githubUrl: "https://github.com/virajdana/expensetracker-react.git",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Viraj Dananjaya Portfolio",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Portfolio website built using React and Tailwind CSS.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "TailwindCSS"],
+    // demoUrl: "#",
+    githubUrl: "https://github.com/virajdana/Viraj-Dananjaya-Portfolio.git",
   },
-  {
-    id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+  // // {
+  // //   id: 3,
+  // //   title: "E-commerce Platform",
+  // //   description:
+  // //     "Full-featured e-commerce platform with user authentication and payment processing.",
+  // //   image: "/projects/project3.png",
+  // //   tags: ["React", "Node.js", "Stripe"],
+  // //   demoUrl: "#",
+  // //   githubUrl: "#",
+  // // },
 ];
 
 export const ProjectsSection = () => {
@@ -46,7 +46,7 @@ export const ProjectsSection = () => {
           crafted with attention to detail, performance, and user experience.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center ">
           {projects.map((project, key) => (
             <div
               key={key}
@@ -75,13 +75,13 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
+                    {/* <a
                       href={project.demoUrl}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <ExternalLink size={20} />
-                    </a>
+                    </a> */}
                     <a
                       href={project.githubUrl}
                       target="_blank"
